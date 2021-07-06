@@ -6,7 +6,7 @@
     "start": "ts-node src/test.ts"
   },
   "dependencies": {
-    "awesome-logging": "^0.2.9"
+    "awesome-logging": "^0.2.10"
   },
   "devDependencies": {
     "@types/node": "^16.0.0",
