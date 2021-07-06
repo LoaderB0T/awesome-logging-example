@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "yarn tsc .",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/test.ts"
   },
   "dependencies": {
     "awesome-logging": "^0.2.9"
