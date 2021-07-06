@@ -1,6 +1,6 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "awesome-logging-example",
+  "version": "0.0.1",
   "scripts": {
     "build": "yarn tsc .",
     "start": "ts-node src/index.ts"
