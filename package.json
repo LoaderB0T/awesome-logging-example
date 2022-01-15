@@ -5,10 +5,14 @@
     "build": "yarn tsc .",
     "start": "ts-node src/test.ts"
   },
+  "prettier": "@awdware/prettier-config",
   "dependencies": {
     "awesome-logging": "^0.3.0"
   },
   "devDependencies": {
+    "@awdware/eslint-config-base": "^1.0.0",
+    "@awdware/eslint-config-nodejs": "^1.0.0",
+    "@awdware/prettier-config": "^0.0.2",
     "@types/node": "^16.0.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"

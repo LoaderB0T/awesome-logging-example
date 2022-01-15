@@ -8,9 +8,8 @@ AwesomeLogger.log('');
 AwesomeLogger.log('');
 AwesomeLogger.log('');
 
-
 setInterval(() => {
-  AwesomeLogger.interrupt('interrupt' + Math.random());
+  AwesomeLogger.interrupt('interrupting with a random number: ' + Math.random());
 }, 4000);
 
 const promptForLog = () => {
@@ -53,7 +52,11 @@ const createExampleLogger = (type: string) => {
       });
     }
     case 'progressbar': {
-      return AwesomeLogger.create('progress', { totalProgress: 100, filledColor: 'GREEN', maxWidth: 100 });
+      return AwesomeLogger.create('progress', {
+        totalProgress: 100,
+        filledColor: 'GREEN',
+        maxWidth: 100
+      });
     }
   }
 };
