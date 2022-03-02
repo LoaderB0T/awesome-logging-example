@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "build": "yarn tsc .",
-    "start": "ts-node src/test.ts"
+    "start": "ts-node src/test.ts",
+    "install": "yarn start"
   },
   "prettier": "@awdware/prettier-config",
   "dependencies": {
